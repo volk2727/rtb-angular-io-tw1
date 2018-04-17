@@ -1,0 +1,82 @@
+
+.email-editor {
+  background-color: #ffffff;
+  box-shadow: 0 1px #CBCBCB inset;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 4px;
+  height: 100px;
+  overflow: auto;
+  padding-top: 1px;
+}
+
+
+.email-editor__chip {
+  background: #DBEAFF;
+  border: 1px solid #DBEAFF;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  color: #444;
+  margin: 4px 3px 0 5px;
+  outline: none;
+  vertical-align: middle;
+  cursor: default;
+  padding: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.email-editor__chip--warning {
+  background: #DBEAFF;
+  border: none;
+  border-bottom: 2px dotted #d14836;
+  color: black;
+  padding-bottom: 0;
+}
+
+.email-editor__input {
+  display: inline-block;
+  margin: 10px 4px 0 4px;
+  vertical-align: middle;
+  background: none;
+  border: 0;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  height: 23px;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 0 0 5px;
+  position: relative;
+  resize: none;
+  width: 140px;
+}
+
+.email-editor__icon-wrapper {
+  display: inline-block;
+}
+
+.email-editor__icon {
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  vertical-align: middle;
+}
+
+.email-editor__icon--x {
+  background: no-repeat url(assets/images.svg) 0 -26px;
+  opacity: .6;
+}
+
+.email-editor__chip-content {
+  display: inline-block;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-bottom: 3px;
+  margin-left: 8px;
+}

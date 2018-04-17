@@ -1,0 +1,32 @@
+<svg width="23" height="47" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+ <g>
+  <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+  <title transform="translate(0,898) ">Artboard</title>
+  <desc transform="translate(0,898) ">Created with Sketch.</desc>
+
+  <g fill-rule="evenodd" fill="none" id="Page-1">
+   <g id="Artboard">
+    <g id="ic_security_black_24dp">
+     <path fill="#FFFFFF" id="Shape" d="m10.5,898.875l-7.875,3.5l0,5.25c0,4.85625 3.36,9.3975 7.875,10.5c4.515,-1.1025 7.875,-5.64375 7.875,-10.5l0,-5.25l-7.875,-3.5l0,0zm0,9.61625l6.125,0c-0.46375,3.605 -2.87,6.81625 -6.125,7.8225l0,-7.81375l-6.125,0l0,-4.9875l6.125,-2.72125l0,7.7l0,0z"/>
+     <polygon points="0,898 21,898 21,919 0,919 " id="Shape"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_58">
+   <rect id="svg_59" x="1" y="2" height="21" width="21" fill-opacity="0" fill="#4387FD"/>
+   <polygon id="svg_60" points="16.5,9.41400146484375 15.085000991821289,8 11.5,11.58599853515625 7.914000511169434,8 6.5,9.41400146484375 10.085000038146973,13 6.5,16.58599853515625 7.914000511169434,18 11.5,14.41400146484375 15.085000991821289,18 16.5,16.58599853515625 12.913999557495117,13 " fill="#999999"/>
+  </g>
+  <g id="svg_70">
+
+   <polygon id="svg_71" points="15.5,32.845001220703125 14.154999732971191,31.5 11.5,34.154998779296875 8.845000267028809,31.5 7.5,32.845001220703125 10.154999732971191,35.5 7.5,38.154998779296875 8.845000267028809,39.5 11.5,36.845001220703125 14.154999732971191,39.5 15.5,38.154998779296875 12.845000267028809,35.5 "/>
+   <rect id="svg_72" x="1" y="25" height="21" width="21" fill="#4387FD" opacity="0"/>
+  </g>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="49" width="25" y="-1" x="-1"/>
+ </g>
+</svg>

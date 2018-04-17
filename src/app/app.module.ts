@@ -1,8 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
+import {EmailsEditorModule} from '../components/emails-editor/emails-editor.module';
 
 
 @NgModule({
@@ -10,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    EmailsEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

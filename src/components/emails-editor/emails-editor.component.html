@@ -1,0 +1,32 @@
+<div class="email-editor"
+     (click)="inputArea.focus()">
+  <span class="apps-share-chips-container">
+    <span class="email-editor__chip"
+          aria-selected="false"
+          tabindex="-1"
+          style="user-select: none;"
+          *ngFor="let email of emails; let i = index">
+      <div class="email-editor__chip-content"
+           [class.email-editor__chip--warning]="!validate(email)"
+           style="max-width: 348px;">
+        {{email}}
+      </div>
+      <div class="email-editor__icon-wrapper"
+           (click)="deleteItem(i)">
+        <span class="email-editor__icon email-editor__icon--x"></span>
+      </div>
+    </span>
+  </span>
+  <input #inputArea class="email-editor__input"
+         (blur)="onEmailComplete(inputArea.value); inputArea.value = ''"
+         (keydown.enter)="onEmailComplete(inputArea.value);  inputArea.value = ''"
+         (keydown.,)="$event.preventDefault(); onEmailComplete(inputArea.value);  inputArea.value = ''"
+         (paste)="onEmailPaste(inputArea.value, $event)"
+         (keydown.backspace)="removeLast(inputArea.value)"
+         aria-autocomplete="list"
+         placeholder="add more people..."
+         aria-label="add more people..."
+         aria-haspopup="false"
+         aria-expanded="false">
+</div>
+
